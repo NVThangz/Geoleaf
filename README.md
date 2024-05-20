@@ -23,7 +23,8 @@ GeoLeaf supports the development of GIS application software. With GeoLeaf, user
 2. Install GeoServer:
 
 ```bash
-./geoleaf-bundle/geoserver/run.sh
+cd geoleaf-bundle/geoserver
+./run.sh
 ```
 
 run `chmod +x geoleaf-bundle/geoserver/run.sh` if comand above not work
@@ -31,7 +32,8 @@ run `chmod +x geoleaf-bundle/geoserver/run.sh` if comand above not work
 3. Install TileServer-GL:
 
 ```bash
-./geoleaf-bundle/tileserver-gl/run.sh
+cd geoleaf-bundle/tileserver-gl
+./run.sh
 ```
 
 run `chmod +x geoleaf-bundle/tileserver-gl/run.sh` if comand above not work
