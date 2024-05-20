@@ -22,3 +22,5 @@ fi
 docker pull klokantech/tileserver-gl
 
 docker run -it -v $(pwd):/data -p 8081:80 klokantech/tileserver-gl
+
+echo "TileServer GL setup complete. You can access it at http://localhost:8081"
